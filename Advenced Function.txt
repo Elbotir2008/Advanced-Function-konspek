@@ -1,0 +1,22 @@
+Advanced Functions
+1.Arguments - javascriotda arguments degan keyword bor. U functionni parametrlarini oladi va  =olingandan keyin indan foydalansa bo'ladi.
+2. Rest operators - rest operator xudi argumentslarga o'xshaydi 
+faqat parametrni oxiriga yozsangiz "...anyword" operatorndan oldingi barcha parametrlarni oladi. Agar oxirigia qo'ymasangiz xatolik yuz beradi. Operatorni boshiga qo'ysangiz hamma parametrlani oladi.
+3. Recursive functions - o'zini-o'zi chaqiradigan function bu recursive functions deyiladi. Yaratilgan functioni ichiga callback qilib chaqirsangiz cheksiz aylanishni boshlaydi.
+4. Pure functions -  sof funksiya degan ma'noni bildiradi. Ya'ni qanday input bersangiz shunday output qaytaradi. Inpure xuddi shuni teskarisidir.
+5. Factory function - factory bu zavod degani bildiradi, ya'ni bu yerda ishlab chiqaruvchi degan ma'noni bildiradi. Factory functionda return sifatida object ishlab chiqarib beradi. 
+6. Returning multiple values - returni ichiga object bilan yoki array bilan ko'p ma'lumotlar bersa bo'ladi.
+7. Callback function -  funksiyaga argument sifatida berilgan funksiya.
+8. Higher Order Function (HOF) — boshqa funksiyani argument sifatida olgan funksiya
+9. Closure - closure xususiyati - ichki scope tashqi skopdagi o’zgaruvchilarni o’zida saqlash xususiyati. Closure funksiya - o’sha ichki scope tegishlik bo’lgan funksiya
+High Order methods
+1. - sort((a, b) ⇒ a - b) → increase
+2. - sort((a, b) ⇒ b - a) → decrease
+3. - forEach((el, i, arr) ⇒ {})
+4. - **map**((el, i, arr) ⇒ {}) → new array
+5. - **filter**((el, i, arr) ⇒ {}) → new array
+6. - every((el, i, arr) ⇒ {}) → boolean
+7. - some((el, i, arr) ⇒ {}) → boolean
+8. - **find**((el, i, arr) ⇒ {}) → first element
+9. - findIndex((el, i, arr) ⇒ {}) → first index
+10. - **reduce**((ac, el, i, arr) ⇒ {}, initialValue) → value
